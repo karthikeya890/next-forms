@@ -1,4 +1,4 @@
-import prisma from "../../prisma";
+import prisma from "../../prismaInstance";
 
 // Group users queries
 export const getAllUsers = async (req, res) => {
